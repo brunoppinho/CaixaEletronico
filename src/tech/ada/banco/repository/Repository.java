@@ -1,5 +1,7 @@
 package tech.ada.banco.repository;
 
+import tech.ada.banco.model.ClasseComId;
+
 import java.util.List;
 
 public interface Repository<T> {

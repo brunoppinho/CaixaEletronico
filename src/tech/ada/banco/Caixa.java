@@ -20,7 +20,7 @@ public class Caixa {
         Saque saque = new SaqueImpl(contaRepository);
 
         abrirConta.executar();
-        saque.executar(BigDecimal.TEN, 1);
+        saque.executar(BigDecimal.TEN, 0);
     }
 }
 /*
